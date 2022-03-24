@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, .8);
 }
 
 .d-bloc .a-btn:hover,
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #424242!important;
 }
 
 .container {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -701,7 +701,8 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 20px auto 20px auto;
+    color: white;
 }
 
 h2 {
@@ -771,7 +772,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f3976c;
 }
 
 .tc-white {
@@ -784,7 +785,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #f3976C!important;
     color: #FFFFFF!important;
 }
 
@@ -801,7 +802,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #f3976C!important;
 }
 
 .icon-dark-slate-blue {
@@ -818,11 +819,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
